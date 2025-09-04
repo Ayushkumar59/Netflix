@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color:black;
+
+}
+.main{
+    background-image: url("background.jpg");
+    height:110vh;
+    
+   position: relative;
+   background-size: max(1200px,100vw);
+   
+    background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+ /* @media screen and(max-width:300px){
+    .btn-red
+    {
+        background-color: aquamarine;
+    
+    }    */
+    
+    
+
+
+    
+
+ .box{
+    height: 110vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    height: 120px;
+}
+nav img{
+    color: rgb(250, 55, 55);
+  position: relative;
+  z-index: 10;
+  margin-top: 15px;
+}
+nav {
+    position: relative;
+    z-index: 10;
+}
+.hero{
+height:calc(100% - 120px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-weight: bolder;
+    gap: 25px;
+    padding:0 30px;
+ 
+}
+.hero>:first-child{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+   text-align: center;
+
+}
+.hero> :nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.seperation{
+    border-radius: 50%;
+    border: solid 7px red;
+    /* height: 4px;  */
+    border-color:  rgba(255, 0, 0, 0.582) transparent transparent transparent ;
+     /* background-color: rgba(231, 15, 15, 0.541); */
+  /* position: absolute; */
+width: 100%;
+
+box-shadow: 0 0px 40px white;
+/* filter: drop-shadow(0 0  30px white); */
+}
+
+.btn{
+   height: 32px;
+   width: 77px;
+    font-weight: 500;
+    background-color:rgba(248,243,246,0.021);
+color: white;
+border: 1px solid rgba(255, 255, 255, 0.267);
+border-radius: 4px;
+cursor: pointer;
+padding: 10px 6px;
+width: 100px;
+height:40px;
+font-size: 100%;
+
+
+}
+@media screen and (max-width:650px){
+    
+    
+}
+.btn-red{
+background-color: red;
+color: white;
+height:50px ;
+width: 180px;
+font-size: 25px;
+border-radius: 5px;
+border: none;
+font-weight: 400px;
+}
+.btn-red-sm{
+background-color: red;
+color: white;
+border: none;
+height: 30px;
+width: 80px;
+align-items: center;
+
+}
+.main input{
+    color: white;
+    height:50px ;
+    width: 220px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 0.1px solid rgba(255, 255, 255, 0.274) ;
+    padding-right: 155px ;
+  padding-left: 40px;
+opacity:0.5 ;
+background-color: black;
+position: relative;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.trending{
+    height: 100px;
+    width: 300px;
+    color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-left: 150px;
+margin-top: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+}
+
+.ops{
+    padding: 8px 8px ;
+    margin-left: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+   background: rgba(248, 242, 242, 0.199);
+   color: white;
+}
+#change{
+    color: black;
+
+}
+#change2{
+    color: black;
+   
+}
+.ops2{   padding: 8px 8px ;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+   background: rgba(248, 242, 242, 0.199);
+   color: white;
+}
+.bo{
+   
+    border:none;
+    height: 200px;
+    width: 10%;
+
+ flex-wrap: wrap;
+ 
+}
+
+
+.shop-section{
+    display: flex;
+  gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  
+ 
+}
+.bo-img{
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+transition: 0.3s;
+   
+    }
+.bo-img:hover {
+    scale: 1.1;
+    
+}
+.ka{
+    border:2px solid black;
+    height: 200px;
+    width: 250px;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+.join{   
+    
+    display: flex;
+  gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.me p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+font-weight: 800;
+padding-left: 15px;
+}
+.me{
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    background-image:url(download\ \(4\).jpeg);
+
+    filter: drop-shadow(0 0 10px rgb(138, 138, 179));
+    &:hover{
+        scale: 1.1;
+    }
+}
+.you p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+font-weight: 800;
+padding-left: 15px;
+}
+.you{  filter: drop-shadow(0 0 10px rgb(138, 138, 179));
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    background-image: url(download\ \(4\).jpeg);
+    &:hover{
+        scale: 1.1;
+    }}
+.tum p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+font-weight: 800;
+padding-left: 15px;
+}
+.tum{   filter: drop-shadow(0 0 10px rgb(138, 138, 179));
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    background-image:url(download\ \(4\).jpeg);
+    &:hover{
+        scale: 1.1;
+    }}
+.ha p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+font-weight: 800;
+padding-left: 15px;
+}
+.ha {   filter: drop-shadow(0 0 10px rgb(138, 138, 179));
+    transition: 0.3s;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    background-image: url(download\ \(4\).jpeg);
+    &:hover{
+        scale: 1.1;
+    }}
+
+.ask{height: 80px;
+    width: 70%;
+    border:none;
+    border-radius: 4px;
+    color: antiquewhite;
+    display: flex;
+justify-self: center;
+margin: 10px;
+align-items: center;
+padding-left: 50px;
+font-size: 25px;
+font-weight: 500;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:rgb(66, 64, 64);
+transition: 0.2s;
+
+&:hover{
+    background-color:rgb(82, 80, 80);
+}
+}
+.question{
+    padding:5px 10px 5px 10px ;
+    
+}
+.seperate{border-radius: 50%;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(97, 102, 102);
+}
+
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+}
+footer a{ 
+   font-size: 14px;
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+   footer p{
+    padding: 34px 0;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+gap: 14px;
+}
+
+
+
+
+
+
+
+
+
+
